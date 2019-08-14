@@ -24,14 +24,14 @@ GEM
     kgio (2.11.0)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
-    mini_portile (0.6.2)
+    mini_portile2 (2.4.0)
     multipart-post (2.0.0)
     naught (1.1.0)
     newrelic_rpm (3.5.8.72)
-    nokogiri (1.6.6.4)
-      mini_portile (~> 0.6.0)
-    nokogiri (1.6.6.4-x86-mingw32)
-      mini_portile (~> 0.6.0)
+    nokogiri (1.10.4)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.4-x86-mingw32)
+      mini_portile2 (~> 2.4.0)
     power_assert (0.4.1)
     public_suffix (2.0.5)
     rack (1.6.5)
@@ -89,7 +89,7 @@ PLATFORMS
 DEPENDENCIES
   jemalloc (~> 0.1.8)
   newrelic_rpm (~> 3.5.4)
-  nokogiri
+  nokogiri (>= 1.10.4)
   rake
   redcarpet
   redis
@@ -107,4 +107,4 @@ RUBY VERSION
    ruby 2.4.0p0
 
 BUNDLED WITH
-   1.13.7
+   1.17.3
