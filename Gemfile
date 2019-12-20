@@ -5,7 +5,7 @@ ruby '2.4.0'
 
 # Framework
 gem 'sinatra', '1.4.7'
-gem 'sinatra-assetpack', '0.3.5', :require => 'sinatra/assetpack'
+gem 'sinatra-assetpack', '0.3.5'
 gem 'jemalloc', '~> 0.1.8'
 gem 'redcarpet'
 gem 'slugify'
@@ -26,7 +26,7 @@ gem 'newrelic_rpm', '~> 3.5.4'
 # Dev
 group :development do
   gem 'rake'
-  gem 'shotgun', '~> 0.9'
+  gem 'shotgun', '~> 0.9', '>= 0.9.2'
   gem 'test-unit'
 end
 
