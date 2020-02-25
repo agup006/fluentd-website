@@ -25,7 +25,7 @@ gem 'newrelic_rpm', '~> 3.5.4'
 
 # Dev
 group :development do
-  gem 'rake'
+  gem 'rake', '>= 12.3.3'
   gem 'shotgun', '~> 0.9'
   gem 'test-unit'
 end
