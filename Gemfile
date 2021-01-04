@@ -32,4 +32,4 @@ end
 
 # Scripts
 gem "twitter"
-gem "nokogiri"
+gem "nokogiri", ">= 1.11.0"
