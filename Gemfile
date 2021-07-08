@@ -31,5 +31,5 @@ group :development do
 end
 
 # Scripts
-gem "twitter"
+gem "twitter", ">= 6.0.0"
 gem "nokogiri"
